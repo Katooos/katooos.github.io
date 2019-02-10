@@ -1,0 +1,1054 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('fonts/GothamPro-Light.eot');
+    src: url('fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GothamPro-Light.woff') format('woff'),
+        url('fonts/GothamPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+
+/* ---------- ЛОГОТИП ---------- */
+
+.logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+
+/* ---------- МЕНЮ ---------- */
+
+.menu {
+    float: right;
+    margin-right: 167px;
+    margin-top: 63px;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+
+}
+
+.menu li a:hover {
+    color: #212121;
+    border-bottom: 2px solid black;
+}
+
+
+/*________________________________________ФУТЕР________________________________________*/
+
+
+
+.footer {
+    clear: both;
+    height: 384px;
+    background-color: #f7f7f7;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.footer p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+/* ---------- КОНТАКТЫ ---------- */
+
+.contact_us {
+    margin-left: 99px;
+    margin-top: 120px;
+    float: left;
+}
+
+/* ---------- ПОЛЬЗОВАТЕЛЬСКАЯ ИНФОРМАЦИЯ ---------- */
+
+.useful_information {
+    margin-left: 80px;
+    padding-top: 120px;
+    float: left;
+}
+
+.useful_information ul {
+    list-style-type: none;
+    height: 62px;
+    float: left;
+}
+
+.useful_information li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.info_list1 {
+    width: 132px;
+    margin-right: 103px;
+}
+
+.info_list2 {
+    width: 186px;
+    margin-right: 78px;
+}
+
+
+/* ---------- ФОРМА ПОДПИСКИ НА РАССЫЛКУ ---------- */
+
+.subscription_form {
+    padding-top: 120px;
+    float: left;
+}
+
+
+.email {
+    width: 353px;
+    height: 48px;
+    margin-top: 24px;
+    padding-left: 17px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background: url(img/icon-paper-plane.png) no-repeat 330px 10px;
+    background-size: auto 50%;
+}
+
+
+/* ---------- КОПИРАЙТ ---------- */
+
+.copyright {
+    width: 362px;
+    height: 9px;
+    margin-left: 98px;
+    margin-top: 55px;
+    float: left;
+}
+
+.copyright p {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+/* ---------- СОЦИАЛЬНЫЕ СЕТИ ---------- */
+
+.social_media {
+    list-style-type: none;
+    float: left;
+    padding-left: 158px;
+    margin-top: 55px;
+    width: 133px;
+    height: 28px;
+}
+
+.social_media li {
+    display: inline;
+}
+
+
+
+/* ---------- ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ---------- */
+
+.terms {
+    width: 350px;
+    height: 12px;
+    float: left;
+    margin-top: 55px;
+    margin-left: 172px;
+}
+
+.terms p {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: right;
+}
+
+
+
+
+/*_______________________________________ПЕРВЫЙ БЛОК index.html_______________________________________*/
+
+/* ---------- ШАПКА САЙТА ---------- */
+
+.header {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+
+/* ---------- ТЕКСТА ---------- */
+
+.text {
+    width: 458px;
+    margin-top: 288px;
+    margin-left: 98px;
+}
+
+.text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 58px;
+    font-weight: 100;
+    margin-bottom: 34px;
+}
+
+.text p {
+    color: #6c6c6c;
+    font-size: 13.69px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+
+/* ---------- КНОПКА <ORDER US> ---------- */
+
+.button {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+    box-shadow: 0px 5px 10px 0.5px rgba(33, 33, 33, 0.35);
+}
+
+
+/* ---------- КРУГИ НАВИГАЦИИ ---------- */
+
+.navigation {
+    float: left;
+    margin-left: 623px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul li {
+    float: left;
+    background-color: rgba(33, 33, 33, 0.2);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.navigation ul li:hover {
+    background-color: #212121;
+    transform: scale(1.2);
+}
+
+
+
+/*_______________________________________ВТОРОЙ БЛОК index.html_______________________________________*/
+
+/* ---------- ВИТРИНА ---------- */
+
+.block2 {
+    height: 609px;
+    clear: both;
+}
+
+
+/* ---------- МЕНЮ (Featured/New) ---------- */
+
+.featured {
+    height: 219px;
+}
+
+.featured ul {
+    float: left;
+    margin-left: 98px;
+    margin-bottom: 72px;
+}
+
+.featured_menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.featured_menu li a {
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0 20px;
+    border-bottom: 1px solid #6c6c6c;
+    margin-top: 107px;
+    text-decoration: none;
+}
+
+.featured_menu li a:hover {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+/* ---------- УЗНАТЬ БОЛЬШЕ ---------- */
+
+.explore_all {
+    float: right;
+    margin-top: 107px;
+    margin-right: 118px;
+}
+
+.explore_all a {
+    color: #212121;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    width: 158px;
+    display: block;
+}
+
+.explore_all a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 140px;
+}
+
+/* ---------- КАТАЛОГ ---------- */
+
+.catalog {
+    clear: both;
+    margin-left: 98px;
+    margin-bottom: 120px;
+}
+
+.catalog li {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 25px;
+}
+
+.catalog li a {
+    text-decoration: none;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.catalog li a:hover {
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+.catalog a img {
+    margin: 60px 107px 10px 107px;
+}
+
+.catalog h2 {
+    clear: both;
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.0041);
+    width: 161px;
+    height: 17px;
+    margin-left: 58px;
+    margin-bottom: 23px;
+}
+
+.catalog p {
+    color: #6c6c6c;
+    font-size: 13.8px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin: 0px 30px;
+}
+
+
+
+/*_______________________________________ТРЕТИЙ БЛОК index.html_______________________________________*/
+
+/* ---------- ЭКСКЛЮЗИВ ---------- */
+
+.block3 {
+    clear: both;
+    height: 683px;
+}
+
+.exclusive_product1 {
+    float: left;
+    height: 683px;
+    width: 683px;
+    background: url(img/promo-img1.jpg);
+}
+
+.exclusive_product2 {
+    height: 683px;
+    width: 683px;
+    background-image: url(img/promo-img.jpg);
+    margin-left: 683px;
+}
+
+.block3 h3 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 51px;
+    padding-top: 228px;
+}
+
+.block3 h1 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 51px;
+    padding-top: 18px;
+}
+
+.block3 p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+    padding-left: 51px;
+    padding-top: 24px;
+}
+
+.block3 .button {
+    margin-top: 34px;
+    margin-left: 51px;
+}
+
+
+
+/*______________________________________ЧЕТВЕРТЫЙ БЛОК index.html______________________________________*/
+
+/* ---------- ПОПУЛЯРНЫЕ ТОВАРЫ ---------- */
+
+.block4 {
+    clear: both;
+}
+
+.block4 h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    float: left;
+    margin-top: 107px;
+    margin-left: 98px;
+}
+
+.trending_products {
+    clear: both;
+    margin-left: 98px;
+}
+
+.trending_products img {
+    height: 370px;
+    width: 370px;
+}
+
+.trending_products li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/*________________________________________ПЯТЫЙ БЛОК index.html________________________________________*/
+
+.block5 {
+    clear: both;
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    position: relative;
+}
+
+/* ---------- ГОРЯЧЕЕ ПРЕДЛОЖЕНИЕ ---------- */
+
+.hot_deal_text {
+    margin-left: 98px;
+}
+
+.hot_deal_text h3 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 287px;
+}
+
+.hot_deal_text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.hot_deal_text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+/* ---------- НАВИГАЦИЯ ---------- */
+
+.block5 .navigation {
+    float: left;
+    margin-left: 623px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+
+
+/*_______________________________________ШЕСТОЙ БЛОК index.html_______________________________________*/
+
+.block6 {
+    clear: both;
+}
+
+.block6 .exclusive {
+    float: left;
+    height: 570px;
+    width: 570px;
+    background: url(img/product-1-lg.jpg);
+    margin-left: 98px;
+    margin-top: 120px;
+    margin-right: 25px;
+    margin-bottom: 120px;
+}
+
+
+.exclusive h3 {
+    padding-left: 31px;
+    padding-top: 181px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.exclusive h1 {
+    padding-left: 31px;
+    padding-top: 10px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.exclusive p {
+    padding-left: 31px;
+    padding-top: 12px;
+    color: #6c6c6c;
+    font-size: 13.70px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    transform: scaleY(1.0022);
+    width: 332px;
+    height: 36px;
+}
+
+.exclusive .button {
+    margin-top: 34px;
+    margin-left: 31px;
+}
+
+.block6_products {
+    padding-top: 120px;
+}
+
+.block6_products img {
+    height: 270px;
+    width: 270px;
+}
+
+.block6_products li {
+    list-style-type: none;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+/*_______________________________________СЕДЬМОЙ БЛОК index.html_______________________________________*/
+
+.block7 {
+    clear: both;
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+}
+
+.mobile_app_text {
+    margin-left: 99px;
+}
+
+.mobile_app_text h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 125px;
+    padding-bottom: 22px;
+}
+
+.mobile_app_text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.mobile_app_text p {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 33px;
+}
+
+
+/*________________________________________PRODUCTS PAGE________________________________________*/
+
+/* ---------- ШАПКА PRODUCTS PAGE ---------- */
+
+.products_header {
+    height: 360px;
+    width: 1366px;
+    background-color: #f5f5f5;
+}
+
+.products_header h1 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 168px;
+    margin-left: 101px;
+
+}
+
+/* ---------- PRODUCTS MENU ---------- */
+
+.products_menu {
+    height: 156px;
+}
+
+.products_menu ul {
+    float: left;
+    margin-left: 98px;
+    margin-bottom: 72px;
+}
+
+.products_menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.products_menu li a {
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0 20px;
+    border-bottom: 1px solid #6c6c6c;
+    margin-top: 71px;
+    text-decoration: none;
+}
+
+.products_menu li a:hover {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+.block4 .load {
+    clear: both;
+    margin-left: 672px;
+    padding-top: 71px;
+    padding-bottom: 140px;
+}
+
+
+/*________________________________________PRODUCTS DETAILS________________________________________*/
+
+.details_header {
+    height: 119px;
+}
+
+
+/* ---------- DETAILS MENU ---------- */
+
+.details_menu {
+    clear: both;
+    height: 70px;
+    width: 1366px;
+    background-color: #f4f4f4;
+}
+
+.details_menu ul {
+    float: left;
+    margin-top: 28px;
+    margin-left: 360px;
+}
+
+.details_menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.details_menu li a {
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0006);
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.details_menu li a:hover {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* ---------- КАРТОЧКА ТОВАРА ---------- */
+
+
+.product_card {
+    height: 723px;
+}
+
+.product_card .slider img {
+    width: 570px;
+    height: 570px;
+    margin-left: 72px;
+    margin-top: 98px;
+}
+
+.product_card .slider {
+    float: left;
+    position: relative;
+}
+
+.controll {
+    float: left;
+    position: absolute;
+    margin-top: 653px;
+    margin-left: 248px;
+}
+
+.controll a {
+    margin-right: 10px;
+}
+
+.product_text {
+    position: absolute;
+}
+
+.product_text h2 {
+    padding-top: 119px;
+    padding-left: 866px;
+    color: #212121;
+    font-size: 35.98px;
+    font-weight: 700;
+    transform: scaleY(1.0005);
+}
+
+.product_text h3 {
+    padding-top: 23px;
+    padding-left: 932px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    transform: scaleY(1.0005);
+}
+
+.product_text h1 {
+    padding-top: 36px;
+    padding-left: 864px;
+    font-family: Gotham Pro Light;
+    color: #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    transform: scaleY(1.0005);
+}
+
+.product_text .button {
+    margin-top: 31px;
+    margin-left: 724px;
+    display: block;
+    background: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 21.99px;
+    font-weight: 700;
+    line-height: 71px;
+    transform: scaleY(1.0005);
+}
+
+.product_text .button:hover {
+    background: #f44336 url('img/arrow_white.png') no-repeat 334px 23px;
+    box-shadow: 0px 7px 10px 1px rgba(33, 33, 33, 0.35);
+}
+
+.product_text p {
+    width: 499px;
+    height: 244px;
+    margin-top: 49px;
+    margin-left: 729px;
+    font-family: Gotham Pro Light;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0005);
+}
+
+
+/*________________________________________RELATED PRODUCTS________________________________________*/
+
+
+.related_products {
+    clear: both;
+}
+
+.related_products h1 {
+    margin-top: 148px;
+    margin-left: 100px;
+    margin-bottom: 71px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    float: left;
+}
+
+.related_products .explore_all {
+    margin-top: 164px;
+    margin-right: 118px;
+    margin-bottom: 71px;
+}
+
+.related_products .explore_all a {
+    color: #212121;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    line-height: 24px;
+    width: 158px;
+    text-decoration: none;
+    display: block;
+}
+
+.related_products .explore_all a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 140px;
+}
+
+.related_products .trending_products {
+    margin-bottom: 120px;
+}
+
+
+
+
+
+/*________________________________________CONTACTS________________________________________*/
+
+.contacts_header {
+    height: 360px;
+    width: 1366px;
+    background-color: #f5f5f5;
+}
+
+.contacts_header h1 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 168px;
+    margin-left: 101px;
+
+}
+
+.contacts {
+    clear: both;
+}
+
+.contacts ul {
+    float: left;
+    margin-top: 71px;
+    margin-left: 98px;
+    margin-bottom: 122px;
+}
+
+.contacts li {
+    float: left;
+    list-style-type: none;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+    width: 368px;
+    height: 368px;
+    margin-right: 30px;
+}
+
+
+.contacts li {
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contacts img {
+    margin-top: 48px;
+}
+
+.contacts li h3 {
+    margin-top: 34px;
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    transform: scaleX(1.0041);
+}
+
+.contacts li h2 {
+    margin-top: 20px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+
+}
+
+.contacts li h6 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+
+}
+
+.contacts li p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.082px;
+    transform: scaleX(1.0041);
+}
