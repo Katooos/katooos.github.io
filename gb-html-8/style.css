@@ -526,6 +526,7 @@ body {
 .trending_products {
     clear: both;
     margin-left: 98px;
+    margin-bottom: 880px;
 }
 
 .trending_products img {
@@ -632,13 +633,10 @@ body {
     padding-left: 31px;
     padding-top: 12px;
     color: #6c6c6c;
-    font-size: 13.70px;
+    font-size: 13.50px;
     font-weight: 300;
-    line-height: 22px;
     text-align: left;
     transform: scaleY(1.0022);
-    width: 332px;
-    height: 36px;
 }
 
 .exclusive .button {
